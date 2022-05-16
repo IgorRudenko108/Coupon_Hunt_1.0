@@ -872,6 +872,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin-left: 0;
+    padding-bottom: 50px;
   }
 }
 
@@ -2914,6 +2915,12 @@ button .block__title:active {
 
 .merchants {
   padding-top: 180px;
+}
+
+@media (max-width: 575.98px) {
+  .merchants {
+    padding-top: 120px;
+  }
 }
 
 @media (max-width: 575.98px) {
